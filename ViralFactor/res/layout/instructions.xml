@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ins_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/instructionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/howtotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:gravity="left"
+            android:text=""
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/gameProgressTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/howtoprogress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:gravity="left"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>
